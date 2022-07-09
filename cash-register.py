@@ -52,7 +52,7 @@ def main():
         print('Error: input change not found')
         exit(1)
     temp = sys.argv[1].split(".")
-    change = "Error"
+    change = "Error: invalid input"
     if len(temp) == 1:
         change = get_change(0, int(temp[0]))
     else:
